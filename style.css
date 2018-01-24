@@ -1,0 +1,108 @@
+form{
+    position: absolute;
+    display: block;
+    background-color: #2b2a2a;
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    margin-top:-300px;
+    margin-left:-300px;
+}
+
+#title{
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    width: 600px;
+    left: 50%;
+    margin-left:-300px;
+}
+
+p{
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    line-height: 18px;
+    font-size: 1.25em;
+}
+
+#tabs{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: 75px;
+    background-color: red;
+    margin-top: 0;
+}
+
+#tabs > li{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#tabs > li > a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    line-height: 50px;
+    background-color: darkgrey;
+}
+
+#tabs > li > a:hover{
+    background-color: rgba(36, 33, 33, 0.993);
+}
+
+.selected{
+    background-color: rgb(121, 121, 121) !important;
+}
+
+#formDiv{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 525px;
+}
+
+#left{
+    position: absolute;
+    width: 65%;
+    left: 0;
+}
+
+#right{
+    position: absolute;
+    width: 35%;
+    right: 0;
+}
+
+input{
+    float: right;
+    margin-right: 10px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    float: left;
+    margin-left: 10px;
+    height: 31px;
+    line-height: 31px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
